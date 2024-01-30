@@ -7,7 +7,7 @@ import androidx.core.content.ContextCompat
 import com.hoang.msu.traffic_lights.databinding.ActivityMainBinding
 
 private lateinit var binding: ActivityMainBinding
-private var isGo : Boolean = true
+private var isGo : Boolean = false
 private var isStop : Boolean = false
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //Initial colorcange to green because wasnt posible in activity main
+        binding.button.setBackgroundColor(ContextCompat.getColor(this, R.color.green))
 
         binding.button.setOnClickListener(){
             if(isStop){
