@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Traffic_Lights</string>
+    <string name="app_name">TrafficLightApp</string>
     <string name="button">Button</string>
     <string name="green">GO</string>
     <string name="yellow">Wait</string>
