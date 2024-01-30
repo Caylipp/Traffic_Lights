@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Traffic_Lights</string>
     <string name="button">Button</string>
+    <string name="green">GO</string>
+    <string name="yellow">Wait</string>
+    <string name="red">Stop</string>
 </resources>
